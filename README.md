@@ -1,8 +1,11 @@
 # The Boyer–Moore majority vote algorithm written in Python 3 
 A function which finds and returns the majority element from the provided list.
-Majority element is an element that occurs for more than half of the elements of the input.
-Candidate for the majority is determined using Boyer–Moore majority vote algorithm,
-after the candidate is tested for truly being a majority element.
+Majority element is an element that occurs at least half of the elements of the input.
+Candidates for the majority is determined using improved Boyer–Moore majority vote algorithm,
+after the candidates are tested for truly being a majority element.
+
+NOTE: If two majority elements (50% and 50%) are in the list - first one will be returned as a majority element.
+
 
 ## Run tests
 ```
